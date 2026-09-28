@@ -3,8 +3,8 @@ import React from "react";
 export function Header() {
   return (
     <header className="resume-header">
-      <h1>Your Name</h1>
-      <p>Job Title / Tagline</p>
+      <h1>Samuel Rookstool</h1>
+      <p>Web Developer / IT Assistant</p>
       <p>srookstool@icloud.com | (765) 414-2178 | Fort Wayne, IN</p>
     </header>
   );
