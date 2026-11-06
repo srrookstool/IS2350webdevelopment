@@ -6,10 +6,10 @@ services:
     container_name: mysql_server
     restart: unless-stopped
     environment:
-      MYSQL_ROOT_PASSWORD: root_password
-      MYSQL_DATABASE: my_database
-      MYSQL_USER: db_user
-      MYSQL_PASSWORD: user_password
+      MYSQL_ROOT_PASSWORD: Sm5shing
+      MYSQL_DATABASE: SamuelDB
+      MYSQL_USER: Samuel
+      MYSQL_PASSWORD: Sm5shing
     ports:
       - "3306:3306"
     volumes:
